@@ -1,0 +1,88 @@
+.second-panel {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh;
+}
+
+.menu {
+  margin: 5vh;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.selector {
+  height: 40px;
+  border: solid rgb(247, 131, 7) 2px;
+  color: rgb(247, 131, 7);
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 3px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.5s;
+}
+
+.selector:hover {
+  background-color: rgb(247, 131, 7);
+  color: white;
+}
+
+.selectors {
+  margin-bottom: 5vh;
+}
+
+.dania {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.danie {
+  max-width: 15vw;
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 1vh;
+  box-shadow: 0px 0px 40px -20px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vw;
+}
+
+.food-img {
+  max-height: 25vh;
+}
+
+.nazwa {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 1vh;
+}
+
+.descryption {
+  height: 4vh;
+}
+.sizes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  min-width: 4vw;
+  max-width: none;
+  min-height: 2vh;
+  border-radius: 20px;
+  padding: 1vh;
+  margin: 0.5vh;
+}
